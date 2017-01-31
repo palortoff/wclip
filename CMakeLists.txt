@@ -1,7 +1,7 @@
 Project(wclip)
 
-set(wclip_version_major 0)
-set(wclip_version_minor 2)
+set(wclip_version_major 1)
+set(wclip_version_minor 0)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
