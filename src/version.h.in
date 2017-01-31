@@ -1,0 +1,2 @@
+#define WCLIP_VERSION_MAJOR @wclip_version_major@
+#define WCLIP_VERSION_MINOR @wclip_version_minor@
