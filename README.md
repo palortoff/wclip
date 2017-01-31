@@ -108,13 +108,15 @@ Open a bash shell (like the git bash for windows) in the wclip repository root. 
 <path to bats repository root>/libexec/bats tests
 ```
 
-This tests the complete wclip functionality except for the ``--secret`` parameter. As this is not possible with simple shell capabilities.
+This tests the complete wclip functionality except for the ``--secret`` parameter, as this is not possible with simple shell capabilities.
 
 ## Install
 
 As windows does not have a designated location to put binaries that are available in the path, simply copy the ``wclip.exe`` from ``dist/release`` to a location available in the path. Wclip is linked statically so there is no need to install a runtime or other libraries.
 
-## Acknowledgements
+## Acknowledgements / Links
 
 wclip is based on this [xlip](https://linux.die.net/man/1/xclip) port to windows:
 https://gist.github.com/Rapptz/9664773178da1bc397cf
+
+[Ignoring Clipboard Updates with the CF_CLIPBOARD_VIEWER_IGNORE Clipboard Format](http://www.clipboardextender.com/developing-clipboard-aware-programs-for-windows/ignoring-clipboard-updates-with-the-cf_clipboard_viewer_ignore-clipboard-format)
