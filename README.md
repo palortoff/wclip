@@ -2,7 +2,7 @@
 
 wclip is a command line tool to copy data to the windows clipboard. It can take data from a file or stdin, e.g. using the pipe.
 
-wclip adds the ``--secret`` option to tell [ClipMate](http://www.thornsoft.com/clipmate7.htm), [AceText](https://www.acetext.com/]) and other clipboard viewers not to capture the copied data. This way the clipboard history can be kept free from passwords copied from a password manager like [password-store](https://www.passwordstore.org/).
+wclip adds the ``--secret`` option to tell [ClipMate](http://www.thornsoft.com/clipmate7.htm), [AceText](https://www.acetext.com/) and other clipboard viewers not to capture the copied data. This way the clipboard history can be kept free from passwords copied from a password manager like [password-store](https://www.passwordstore.org/).
 
 ## Usage
 
