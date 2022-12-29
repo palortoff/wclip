@@ -28,6 +28,8 @@ void Clipboard::makeSecret() const {
     if (_options.secret) {
         UINT CF_CLIPBOARD_VIEWER_IGNORE = RegisterClipboardFormat("Clipboard Viewer Ignore");
         SetClipboardData(CF_CLIPBOARD_VIEWER_IGNORE, nullptr);
+        UINT CF_CLIPBOARD_MONITOR_EXLUDE = RegisterClipboardFormat("ExcludeClipboardContentFromMonitorProcessing");
+        SetClipboardData(CF_CLIPBOARD_MONITOR_EXLUDE, nullptr);
     }
 }
 
